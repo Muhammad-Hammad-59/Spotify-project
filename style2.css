@@ -25,7 +25,7 @@ body{
 .contentBox{
     width:80%;
     height:92%;
-    background-color: rgb(12, 169, 158);
+    background-color: black;
     /* border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
     border-radius: 10px;
@@ -43,7 +43,7 @@ body{
 .sideBox{
     width: 20vw;
     height: 90vh;
-    background-color: brown;
+    background-color: black;
     border-radius: 10px;
 }
 .foot{
@@ -389,7 +389,7 @@ body{
 .displaySong{
     width:77.5vw;
     min-height: 60%;
-    background-color: yellow;
+    background-color: black;
     margin-top: 1vh;
   
 }
@@ -397,7 +397,7 @@ body{
 .addInformation{
     width:77.5vw;
     min-height:40%;
-    background-color: purple;
+    background-color: black;
 }
 footer{
     width:77.5vw;
