@@ -18,33 +18,34 @@
   </head>
   <body>
     <div class="main">
-
       <div class="sideBox">
-<!-- logo box -->
+        <!-- logo box -->
         <div class="logo">
-
-            <div class="logoBox">
-            <i class="fa-brands fa-spotify fa-2xl" style="color: white; " title="Spotify"></i>
+          <div class="logoBox">
+            <i
+              class="fa-brands fa-spotify fa-2xl"
+              style="color: white"
+              title="Spotify"
+            ></i>
             <h3>Spotify</h3>
-            </div>
+          </div>
         </div>
-<!-- home box -->
+        <!-- home box -->
         <div class="homeSearch">
-            <div class="home " title="Home">
-                <i class="fa-solid fa-house fa-xl" ></i>
-                <h4>Home</h4>
-            </div>
-<!-- search box -->
-            <div id="search1" class="search" title="Search">
-                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-                <h4>Search</h4>
-            </div>
-
+          <div class="home" title="Home">
+            <i class="fa-solid fa-house fa-xl"></i>
+            <h4>Home</h4>
+          </div>
+          <!-- search box -->
+          <div id="search1" class="search" title="Search">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <h4>Search</h4>
+          </div>
         </div>
-<!-- library box -->
+        <!-- library box -->
         <div class="libraryBox">
           <div class="icon-library">
-            <i class="fa-solid fa-list-ul fa-xl"   title="Your library"></i>
+            <i class="fa-solid fa-list-ul fa-xl" title="Your library"></i>
             <h4>Your Library</h4>
           </div>
           <button id="library-butt">
@@ -52,14 +53,14 @@
           </button>
         </div>
 
-<!-- library content box -->
+        <!-- library content box -->
         <div class="library-content">
           <div class="playlist1">
-              <div class="text">
-                <h3><span id="headtext">Create your first playlist</span></h3>
-                <h5><span id="paratext">it's easy,we'll help you</span></h5>
-              </div>
-              <button id="playlist-butt">Create Playlist</button>
+            <div class="text">
+              <h3><span id="headtext">Create your first playlist</span></h3>
+              <h5><span id="paratext">it's easy,we'll help you</span></h5>
+            </div>
+            <button id="playlist-butt">Create Playlist</button>
           </div>
           <div class="playlist1">
             <div class="text">
@@ -67,35 +68,28 @@
               <span id="paratext">it's easy,we'll help you</span>
             </div>
             <button id="playlist-butt">Create Playlist</button>
-        </div>
-         
-          
+          </div>
         </div>
 
-<!-- Additional information in side box -->
+        <!-- Additional information in side box -->
 
         <div class="sideBoxinfo">
           <div class="links">
-          <div id="legal">Legal</div>
-          <div id="safty">Safty & Privacy Center</div>
-          <div id="priv-policy">Privacy Policy</div>
-          <div id="cookies">Cookies</div>
-          <div id="aboutads">About Ads</div>
-          <div id="accessibilibty">Accessibility</div>
-          
-          <a id="cookieslink">Cookies</a>
-        </div>
-          
+            <div id="legal">Legal</div>
+            <div id="safty">Safty & Privacy Center</div>
+            <div id="priv-policy">Privacy Policy</div>
+            <div id="cookies">Cookies</div>
+            <div id="aboutads">About Ads</div>
+            <div id="accessibilibty">Accessibility</div>
+
+            <a id="cookieslink">Cookies</a>
+          </div>
+
           <button id="sideboxifo-linksbutt">
-            
-            <i class="fa-solid fa-globe fa-xl" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-globe fa-xl" style="color: #ffffff"></i>
             <span id="eng-butt">English</span>
-           
           </button>
-
         </div>
-
-       
       </div>
 
       <div class="contentBox">
@@ -108,11 +102,13 @@
               <i class="fa-solid fa-greater-than" style="color: #ffffff"></i>
             </button>
           </div>
+
+          <!-- search bar  -->
+
           <div class="searchBar searchhide">
             <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-            
-               <input type="text" placeholder="What do you want to play?">
-             
+
+            <input type="text" placeholder="What do you want to play?" />
           </div>
 
           <div class="signlogin">
@@ -121,19 +117,80 @@
             <button class="butt" id="download">Download</button>
             <div class="line"><span>|</span></div>
             <button class="butt" id="signup">Sign up</button>
-            <button  id="login">Log in</button>
+            <button id="login">Log in</button>
           </div>
         </div>
 
+        <!-- display all song in box -->
+
         <div class="displaySong">
+          <!-- <div class="sample">1</div>
           <div class="sample">1</div>
+          <div class="sample">1</div> -->
         </div>
 
         <div class="addInformation"></div>
 
         <footer></footer>
       </div>
+      <div class="foot">
+        <div class="musicdetail">
+          <img src="myimg.jpg" alt="" id="songimg" />
+          <div class="musicdetaillink">
+            <a href="" id="head">Dard</a>
+            <a href="" id="name">Asim Azhar</a>
+          </div>
+          <button><i class="fa-regular fa-heart fa-xl"></i></button>
+        </div>
+        <div class="musicTrack">
+          <div class="controlbutton">
+            <div class="backworkbutt combine">
+              <button><i class="fa-solid fa-shuffle fa-lg"></i></button>
+              <button>
+                <i class="fa-solid fa-backward fa-lg" id="fabackward"></i>
+              </button>
+            </div>
+            <div class="playpause">
+              <button>
+                <i class="fa-solid fa-play fa-lg" id="playbutt"></i>
+              </button>
+            </div>
+            <div class="forwordbutt combine">
+              <button>
+                <i class="fa-solid fa-forward fa-lg" id="faforward"></i>
+              </button>
+              <button><i class="fa-solid fa-repeat fa-lg"></i></button>
+            </div>
+          </div>
+          <div class="track">
+            <div class="cover">
+              <h5 id="covertime">00:00</h5>
+            </div>
+            <audio id="song">
+              <source src="song4.mp3" type="audio/mpeg" />
+            </audio>
+            <input type="range" value="0" id="progress" max=" " />
+            <div class="total">
+              <h5 id="totaltime">00:00</h5>
+            </div>
+          </div>
+        </div>
+        <div class="trackconrols">
+          <button><i class="fa-regular fa-file-audio fa-lg"></i></button>
+          <button><i class="fa-solid fa-layer-group fa-lg"></i></button>
+          <button><i class="fa-solid fa-sliders fa-lg"></i></button>
+          <button>
+            <i class="fa-solid fa-volume-low fa-lg" id="speaker"></i>
+          </button>
+          <input type="range" value="1" id="volume" />
+          <button><i class="fa-solid fa-minimize fa-lg"></i></button>
+          <button>
+            <i class="fa-solid fa-up-right-and-down-left-from-center fa-lg"></i>
+          </button>
+        </div>
+      </div>
     </div>
+
     <script src="java.js"></script>
   </body>
 </html>
